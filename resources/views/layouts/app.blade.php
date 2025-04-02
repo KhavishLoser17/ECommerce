@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>Student Information System</title>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="author" content="surfside media" />
@@ -17,13 +17,35 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
       rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Allura&amp;display=swap" rel="stylesheet">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="{{asset('assets/css/plugins/swiper.min.css')}}" type="text/css" />
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}" type="text/css" />
     <link rel="stylesheet" href="{{asset('assets/css/custom.css')}}" type="text/css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
       crossorigin="anonymous" referrerpolicy="no-referrer">
       @stack("style")
+      @if(isset($delivery))
+<script>
+    // Pass the delivery data from Laravel to JavaScript
+    window.deliveryData = @json($delivery);
+</script>
+@endif
+
 </head>
 <body class="gradient-bg">
     <svg class="d-none">
@@ -259,7 +281,7 @@
         max-width: 220px;
       }
     </style>
-    <div class="header-mobile header_sticky">
+   <div class="header-mobile header_sticky bg-blue-500">
       <div class="container d-flex align-items-center h-100">
         <a class="mobile-nav-activator d-block position-relative" href="#">
           <svg class="nav-icon" width="25" height="18" viewBox="0 0 25 18" xmlns="http://www.w3.org/2000/svg">
@@ -270,7 +292,7 @@
 
         <div class="logo">
           <a href="{{route('home.index')}}">
-            <img src="{{asset('assets/images/logo.png')}}" alt="Uomo" class="logo__image d-block" />
+            <img src="{{asset('images/logo/logo.png')}}" alt="Uomo" class="logo__image d-block" />
           </a>
         </div>
 
@@ -311,16 +333,16 @@
                 <a href="{{route('home.index')}}" class="navigation__link">Home</a>
               </li>
               <li class="navigation__item">
-                <a href="shop.html" class="navigation__link">Shop</a>
+                <a href="shop.html" class="navigation__link">About BCP</a>
               </li>
               <li class="navigation__item">
-                <a href="cart.html" class="navigation__link">Cart</a>
+                <a href="cart.html" class="navigation__link">Admission</a>
               </li>
               <li class="navigation__item">
-                <a href="about.html" class="navigation__link">About</a>
+                <a href="about.html" class="navigation__link">BCP NEWS</a>
               </li>
               <li class="navigation__item">
-                <a href="contact.html" class="navigation__link">Contact</a>
+                <a href="contact.html" class="navigation__link">STUDENT PERSONAL SERVICES</a>
               </li>
             </ul>
           </div>
@@ -385,14 +407,17 @@
     </div>
 
 
-    <header id="header" class="header header-fullwidth header-transparent-bg">
+    <header id="header" class="header header-fullwidth header-transparent-bg bg-blue-500">
       <div class="container">
         <div class="header-desk header-desk_type_1">
-          <div class="logo">
-            <a href="{{route('home.index')}}">
-              <img src="{{asset('assets/images/logo.png')}}" alt="Uomo" class="logo__image d-block" />
-            </a>
-          </div>
+            <div class="logo d-flex align-items-center">
+                <a href="{{ route('home.index') }}" class="d-flex align-items-center text-decoration-none">
+                    <img src="{{ asset('images/logo/logo1.png') }}" alt="Uomo" class="logo__image" style="width: 50px; height: auto; margin-right: 10px;">
+                    <span class="fs-5 fw-semibold">Bestlink College of The <br>Philippines</span>
+                </a>
+            </div>
+
+
 
           <nav class="navigation">
             <ul class="navigation__list list-unstyled d-flex">
@@ -400,16 +425,16 @@
                 <a href="{{route('home.index')}}" class="navigation__link">Home</a>
               </li>
               <li class="navigation__item">
-                <a href="shop.html" class="navigation__link">Shop</a>
+                <a href="#" class="navigation__link">ABOUT BCP</a>
               </li>
               <li class="navigation__item">
-                <a href="cart.html" class="navigation__link">Cart</a>
+                <a href="#" class="navigation__link">ADMISSION</a>
               </li>
               <li class="navigation__item">
-                <a href="about.html" class="navigation__link">About</a>
+                <a href="#" class="navigation__link">BCP NEWS</a>
               </li>
               <li class="navigation__item">
-                <a href="contact.html" class="navigation__link">Contact</a>
+                <a href="#" class="navigation__link">STUDENT PERSONNEL SERVICES</a>
               </li>
             </ul>
           </nav>
@@ -445,13 +470,12 @@
                     <div class="sub-menu search-suggestion">
                       <h6 class="sub-menu__title fs-base">Quicklinks</h6>
                       <ul class="sub-menu__list list-unstyled">
-                        <li class="sub-menu__item"><a href="shop2.html" class="menu-link menu-link_us-s">New Arrivals</a>
+                        <li class="sub-menu__item"><a href="shop2.html" class="menu-link menu-link_us-s">Uniforms</a>
+                            <li class="sub-menu__item"><a href="shop2.html" class="menu-link menu-link_us-s">PE Uniform</a>
                         </li>
-                        <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Dresses</a></li>
-                        <li class="sub-menu__item"><a href="shop3.html" class="menu-link menu-link_us-s">Accessories</a>
+                        <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Booklet</a></li>
+                        <li class="sub-menu__item"><a href="shop3.html" class="menu-link menu-link_us-s">School Accessories</a>
                         </li>
-                        <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Footwear</a></li>
-                        <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Sweatshirt</a></li>
                       </ul>
                     </div>
 
@@ -461,32 +485,51 @@
               </div>
             </div>
             @guest
-            <div class="header-tools__item hover-container">
-              <a href="{{route('login')}}" class="header-tools__item">
-                <svg class="d-block" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <use href="#icon_user" />
-                </svg>
-              </a>
-            </div>
-            @else
-            <div class="header-tools__item hover-container">
-                <a href="{{ Auth::user()->utype === 'ADM' ? route('admin.index'): route('user.index')}}" class="header-tools__item">
-                <span class="pr-6px">{{Auth::user()->name}}</span>
-                  <svg class="d-block" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <use href="#icon_user" />
-                  </svg>
-                </a>
-              </div>
-            @endguest
-            <a href="wishlist.html" class="header-tools__item">
-              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <use href="#icon_heart" />
-              </svg>
-            </a>
+            <div x-data="{ open: false }" class="relative">
+                <!-- User Icon -->
+                <button @click="open = !open" @click.away="open = false" class="flex items-center p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring">
+                    <svg class="w-6 h-6 text-gray-700 hover:text-gray-900" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use href="#icon_user" />
+                    </svg>
+                </button>
 
-            <a href="cart.html" class="header-tools__item header-tools__cart">
+                <!-- Dropdown Menu -->
+                <div x-show="open" x-transition class="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-lg shadow-lg">
+                    <a href="{{ route('login') }}" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Login</a>
+                </div>
+            </div>
+        @else
+            <div x-data="{ open: false }" class="relative">
+                <!-- User Name & Icon -->
+                <button @click="open = !open" @click.away="open = false" class="flex items-center p-2 rounded-md hover:bg-gray-100 focus:outline-none focus:ring">
+                    <span class="pr-2 text-gray-700 hover:text-gray-900">{{ Auth::user()->name }}</span>
+                    <svg class="w-6 h-6 text-gray-700 hover:text-gray-900" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <use href="#icon_user" />
+                    </svg>
+                </button>
+
+                <!-- Dropdown Menu -->
+                <div x-show="open" x-transition class="absolute right-0 mt-2 w-40 bg-white border border-gray-200 rounded-lg shadow-lg">
+                    <a href="{{
+                        Auth::user()->utype === 'ADM' ? route('admin.index') :
+                        (Auth::user()->utype === 'VND' ? route('vendor') : route('user.index'))
+                    }}"
+                    class="block px-4 py-2 text-gray-700 hover:bg-gray-100">
+                        {{
+                            Auth::user()->utype === 'VND'
+                                ? 'Request to Deliver a Product'
+                                : (Auth::user()->utype === 'USER' ? 'Track My Order' : 'Dashboard')
+                        }}
+                    </a>
+
+                    <form action="{{ route('logout') }}" method="POST">
+                        @csrf
+                        <button type="submit" class="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100">Logout</button>
+                    </form>
+                </div>
+            </div>
+        @endguest
+            <a href="{{ route('shop') }}" class="flex items-center px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-100 rounded-md transition">
               <svg class="d-block" width="20" height="20" viewBox="0 0 20 20" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <use href="#icon_cart" />
@@ -501,18 +544,21 @@
 
 
     <hr class="mt-5 text-secondary" />
+
     <footer class="footer footer_type_2">
       <div class="footer-middle container">
         <div class="row row-cols-lg-5 row-cols-2">
           <div class="footer-column footer-store-info col-12 mb-4 mb-lg-0">
-            <div class="logo">
-              <a href="{{route('home.index')}}">
-                <img src="{{asset('assets/images/logo.png')}}" alt="SurfsideMedia" class="logo__image d-block" />
-              </a>
+            <div class="logo d-flex align-items-center">
+                <a href="{{ route('home.index') }}" class="d-flex align-items-center text-decoration-none">
+                    <img src="{{ asset('images/logo/logo1.png') }}" alt="SurfsideMedia" class="logo__image d-block" style="width: 70px; height: auto; margin-right: 10px;">
+                    <span class="font-semibold">Bestlink College of The Philippines</span>
+                </a>
             </div>
-            <p class="footer-address">123 Beach Avenue, Surfside City, CA 00000</p>
-            <p class="m-0"><strong class="fw-medium">contact@surfsidemedia.in</strong></p>
-            <p><strong class="fw-medium">+1 000-000-0000</strong></p>
+
+            <p class="footer-address">Kaligayahan, Quirino Highway, Novaliches, Quezon City</p>
+            <p class="m-0"><strong class="fw-medium">inquiry@bcp.edu.ph.</strong></p>
+            <p><strong class="fw-medium">8442-8601 and 8518-8050</strong></p>
 
             <ul class="social-links list-unstyled d-flex flex-wrap mb-0">
               <li>
@@ -590,17 +636,17 @@
               <li class="sub-menu__item"><a href="store_location.html" class="menu-link menu-link_us-s">Find a Store</a>
               </li>
               <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Legal & Privacy</a></li>
-              <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Gift Card</a></li>
+
             </ul>
           </div>
 
           <div class="footer-column footer-menu mb-4 mb-lg-0">
             <h6 class="sub-menu__title text-uppercase">Categories</h6>
             <ul class="sub-menu__list list-unstyled">
-              <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Shirts</a></li>
+              <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Uniforms</a></li>
               <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Jeans</a></li>
-              <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Shoes</a></li>
-              <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Bags</a></li>
+              <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Booklet</a></li>
+              <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">NewsPaper</a></li>
               <li class="sub-menu__item"><a href="#" class="menu-link menu-link_us-s">Shop All</a></li>
             </ul>
           </div>
@@ -609,7 +655,7 @@
 
       <div class="footer-bottom">
         <div class="container d-md-flex align-items-center">
-          <span class="footer-copyright me-auto">©2024 Surfside Media</span>
+          <span class="footer-copyright me-auto"></span>
           <div class="footer-settings d-md-flex align-items-center">
             <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="terms-conditions.html">Terms &amp;
               Conditions</a>

@@ -1,54 +1,46 @@
 @extends('layouts.app')
 
 @section('content')
-<main class="pt-90">
-    <div class="mb-4 pb-4"></div>
-    <section class="login-register container">
-      <ul class="nav nav-tabs mb-5" id="login_register" role="tablist">
-        <li class="nav-item" role="presentation">
-          <a class="nav-link nav-link_underscore active" id="login-tab" data-bs-toggle="tab" href="#tab-item-login"
-            role="tab" aria-controls="tab-item-login" aria-selected="true">Login</a>
-        </li>
-      </ul>
-      <div class="tab-content pt-2" id="login_register_tab_content">
-        <div class="tab-pane fade show active" id="tab-item-login" role="tabpanel" aria-labelledby="login-tab">
-          <div class="login-form">
-            <form method="POST" action="{{route('login')}}" name="login-form" class="needs-validation" novalidate="">
-                @csrf
-              <div class="form-floating mb-3">
-                <input class="form-control form-control_gray @error('email') is-valid @enderror" name="email" value="{{old('email')}}" required="" autocomplete="email"
-                  autofocus="" placeholder="Email Address">
-                <label for="email">Email address</label>
+<main class="flex justify-center items-center min-h-screen bg-gray-100">
+    <section class="w-full max-w-sm p-6 bg-white rounded-lg shadow-md">
+        <h2 class="text-center text-xl font-semibold text-gray-700 mb-4">Login</h2>
+
+        <form method="POST" action="{{ route('login') }}" class="space-y-4">
+            @csrf
+
+            <!-- Email Input -->
+            <div>
+                <label for="email" class="block text-sm font-medium text-gray-600">Email</label>
+                <input type="email" name="email" id="email"
+                    class="w-full p-2 text-lg border rounded-md focus:ring focus:ring-blue-300 @error('email') border-red-500 @enderror"
+                    value="{{ old('email') }}" required autofocus>
                 @error('email')
-                <span class="invalid-feedback" role="alert">
-                    <strong>{{$message}}</strong>
-                </span>
+                    <p class="text-red-500 text-base mt-1">{{ $message }}</p>
                 @enderror
-              </div>
+            </div>
 
-              <div class="pb-3"></div>
-
-              <div class="form-floating mb-3">
-                <input id="password" type="password" class="form-control form-control_gray @error('password') is-valid @enderror" name="password" required=""
-                  autocomplete="current-password" placeholder="Password">
-                <label for="customerPasswodInput">Password</label>
-                @error('email')
-                <span class="invalid-feedback" role="alert">
-                    <strong>{{$message}}</strong>
-                </span>
+            <!-- Password Input -->
+            <div>
+                <label for="password" class="block text-sm font-medium text-gray-600">Password</label>
+                <input type="password" name="password" id="password"
+                    class="w-full p-2 text-lg border rounded-md focus:ring focus:ring-blue-300 @error('password') border-red-500 @enderror"
+                    required>
+                @error('password')
+                    <p class="text-red-500 text-base mt-1">{{ $message }}</p>
                 @enderror
-              </div>
+            </div>
 
-              <button class="btn btn-primary w-100 text-uppercase" type="submit">Log In</button>
+            <!-- Submit Button -->
+            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-md text-lg font-medium">
+                Log In
+            </button>
+        </form>
 
-              <div class="customer-option mt-4 text-center">
-                <span class="text-secondary">No account yet?</span>
-                <a href="{{route('register')}}" class="btn-text js-show-register">Create Account</a>
-              </div>
-            </form>
-          </div>
+        <!-- Register Link -->
+        <div class="text-center mt-4 text-sm text-gray-600">
+            No account yet?
+            <a href="{{ route('register') }}" class="text-blue-500 hover:underline">Create Account</a>
         </div>
-      </div>
     </section>
-  </main>
+</main>
 @endsection

@@ -910,6 +910,7 @@ h6, .h6 {
   overflow: hidden;
   max-width: 100%;
   height: 100%;
+
 }
 
 /* link style
@@ -3555,7 +3556,7 @@ select.h40 {
   left: 0;
   overflow-y: auto;
   z-index: 20;
-  background-color: #fff;
+  background-color: #4CC9FE;
   box-shadow: 0px 0px 24px 2px rgba(20, 25, 38, 0.05);
   padding-top: 81px;
   display: -webkit-box;
@@ -3656,7 +3657,7 @@ select.h40 {
   transition: all 0.3s ease;
 }
 .layout-wrap .section-menu-left > .center .center-item .menu-list .menu-item a .text {
-  color: #111111;
+  color: #FFFDF0;
   font-size: 14px;
   font-weight: 600;
   line-height: 17px;
@@ -3810,7 +3811,7 @@ select.h40 {
   left: -100%;
   border-bottom: 0;
   padding: 14px 20px;
-  background-color: #fff;
+  background-color: #2596be;
 }
 .layout-wrap.full-width .button-show-hide {
   transform: rotate(180deg);
@@ -3978,7 +3979,7 @@ select.h40 {
   line-height: 17px;
   border-radius: 999px;
   background: var(--Style);
-  color: #fff;
+  color: #1e88e5;
 }
 .popup-wrap.noti > .dropdown .item > .text-tiny::after,
 .popup-wrap.noti > .dropdown .header-item > .text-tiny::after {
@@ -4155,7 +4156,8 @@ select.h40 {
   line-height: 17px;
   border-radius: 999px;
   background: #2275fc;
-  color: #fff;
+  color: #1e88e5;
+  ;
 }
 .popup-wrap.message > .dropdown .header-item > .text-tiny::after {
   position: absolute;
@@ -5731,11 +5733,11 @@ select.h40 {
   }
 }
 [data-colors-menu=colors-menu-fff] .section-menu-left {
-  background-color: #fff !important;
+  background-color: #1013ec !important;
 }
 [data-colors-menu=colors-menu-fff] .section-menu-left > .box-logo {
-  background-color: #fff !important;
-  border-color: #ECF0F4 !important;
+  background-color: #1e88e5 !important;
+  border-color: #1e88e5 !important;
 }
 
 [data-colors-menu=colors-menu-1E293B] .section-menu-left {
@@ -5749,7 +5751,7 @@ select.h40 {
   background-color: #1E293B !important;
 }
 [data-colors-menu=colors-menu-1E293B] .section-menu-left > .center .center-item .center-heading {
-  color: #BDCFD3;
+  color: #0630e9;
 }
 [data-colors-menu=colors-menu-1E293B] .section-menu-left > .center .center-item .menu-list .menu-item a .icon i {
   color: #94A3B8;
@@ -5758,7 +5760,7 @@ select.h40 {
   stroke: #94A3B8;
 }
 [data-colors-menu=colors-menu-1E293B] .section-menu-left > .center .center-item .menu-list .menu-item a .text {
-  color: #fff;
+  color: #0c0fdd;
 }
 [data-colors-menu=colors-menu-1E293B] .section-menu-left > .center .center-item .menu-list .menu-item.has-children .sub-menu {
   background-color: #1E293B !important;
@@ -5773,7 +5775,7 @@ select.h40 {
   border-color: #283548;
 }
 [data-colors-menu=colors-menu-1E293B] .section-menu-left .bot .wrap h6 {
-  color: #fff;
+  color: #4b0ff0;
 }
 [data-colors-menu=colors-menu-1E293B] .section-menu-left .bot .wrap .text {
   color: #94A3B8;
@@ -5862,32 +5864,33 @@ select.h40 {
 }
 
 [data-colors-header=colors-header-fff] .section-content-right .header-dashboard {
-  background-color: #fff;
+  background-color: #1e88e5;
+  ;
 }
 
 [data-colors-header=colors-header-1E293B] .section-content-right .header-dashboard {
-  background-color: #1E293B;
+  background-color: #1e88e5;
 }
 [data-colors-header=colors-header-1E293B] .section-content-right .header-dashboard .form-search input {
-  color: #fff;
+  color: #1e88e5;
 }
 [data-colors-header=colors-header-1E293B] .section-content-right .header-dashboard .form-search input::placeholder {
-  color: #fff;
+  color: #1e88e5;
 }
 [data-colors-header=colors-header-1E293B] .section-content-right .header-dashboard .form-search .button-submit i {
-  color: #fff;
+  color: #1e88e5;
 }
 [data-colors-header=colors-header-1E293B] .section-content-right .header-dashboard .header-item {
   background-color: rgba(203, 213, 225, 0.1019607843);
 }
 [data-colors-header=colors-header-1E293B] .section-content-right .header-dashboard .header-item i {
-  color: #fff;
+  color: #1e88e5;
 }
 [data-colors-header=colors-header-1E293B] .section-content-right .header-dashboard .setting i {
-  color: #fff;
+  color: #1e88e5;
 }
 [data-colors-header=colors-header-1E293B] .section-content-right .header-dashboard .header-user .body-title {
-  color: #fff;
+  color: #1e88e5;
 }
 
 [data-colors-header=colors-header-1B1B1C] .section-content-right .header-dashboard {

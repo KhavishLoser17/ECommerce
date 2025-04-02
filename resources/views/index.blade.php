@@ -14,23 +14,25 @@
         <div class="swiper-slide">
           <div class="overflow-hidden position-relative h-100">
             <div class="slideshow-character position-absolute bottom-0 pos_right-center">
-              <img loading="lazy" src="{{ asset('assets/images/home/demo3/slideshow-character1.png') }}" width="542" height="733"
-                alt="Woman Fashion 1"
-                class="slideshow-character__img animate animate_fade animate_btt animate_delay-9 w-auto h-auto" />
-              <div class="character_markup type2">
-                <p
-                  class="text-uppercase font-sofia mark-grey-color animate animate_fade animate_btt animate_delay-10 mb-0">
-                  Dresses</p>
-              </div>
+                <img loading="lazy" src="{{ asset('images/bg-menu/slide2.png') }}"
+                    alt="Woman Fashion 1"
+                    class="slideshow-character__img animate animate_fade animate_btt animate_delay-9"
+                    style="width: 300px; height: auto; max-width: 100%;">
+                <div class="character_markup type2">
+                    <p class="text-uppercase font-sofia mark-grey-color animate animate_fade animate_btt animate_delay-10 mb-0">
+                        Psychology Student
+                    </p>
+                </div>
             </div>
+
             <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
               <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
-                New Arrivals</h6>
-              <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Night Spring</h2>
-              <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Dresses</h2>
+                Bestlink Uniforms</h6>
+              <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Psychology Uniform</h2>
+
               <a href="#"
                 class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">Shop
-                Now</a>
+                </a>
             </div>
           </div>
         </div>
@@ -38,886 +40,277 @@
         <div class="swiper-slide">
           <div class="overflow-hidden position-relative h-100">
             <div class="slideshow-character position-absolute bottom-0 pos_right-center">
-              <img loading="lazy" src="{{ asset('assets/images/slideshow-character1.png') }}" width="400" height="733"
-                alt="Woman Fashion 1"
-                class="slideshow-character__img animate animate_fade animate_btt animate_delay-9 w-auto h-auto" />
-              <div class="character_markup">
-                <p class="text-uppercase font-sofia fw-bold animate animate_fade animate_rtl animate_delay-10">Summer
-                </p>
+                <img loading="lazy" src="{{ asset('images/bg-menu/slide3.png') }}"
+                    alt="Woman Fashion 1"
+                    class="slideshow-character__img animate animate_fade animate_btt animate_delay-9"
+                    style="width: 500px; height: auto; max-width: 100%;">
+                <div class="character_markup type2">
+                    <p class="text-uppercase font-sofia mark-grey-color animate animate_fade animate_btt animate_delay-10 mb-0">
+                        Information Technology
+                    </p>
+                </div>
+            </div>
+            <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
+              <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
+                Bestlink Uniforms</h6>
+              <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Information Technology <br>Uniform</h2>
+
+              <a href="#"
+                class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">Shop
+                Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="overflow-hidden position-relative h-100">
+              <div class="slideshow-character position-absolute bottom-0 pos_right-center">
+                  <img loading="lazy" src="{{ asset('images/bg-menu/slide4.png') }}"
+                      alt="Woman Fashion 1"
+                      class="slideshow-character__img animate animate_fade animate_btt animate_delay-9"
+                      style="width: 500px; height: auto; max-width: 100%;">
+                  <div class="character_markup type2">
+                      <p class="text-uppercase font-sofia mark-grey-color animate animate_fade animate_btt animate_delay-10 mb-0">
+                          Tourism Management
+                      </p>
+                  </div>
+              </div>
+              <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
+                <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
+                  Bestlink Uniforms</h6>
+                <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Tourism Management <br>Uniform</h2>
+
+                <a href="#"
+                  class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">Shop
+                  Now</a>
               </div>
             </div>
-            <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
-              <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
-                New Arrivals</h6>
-              <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Night Spring</h2>
-              <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Dresses</h2>
-              <a href="#"
-                class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">Shop
-                Now</a>
+          </div>
+          <div class="swiper-slide">
+            <div class="overflow-hidden position-relative h-100">
+              <div class="slideshow-character position-absolute bottom-0 pos_right-center">
+                  <img loading="lazy" src="{{ asset('images/bg-menu/slide5.png') }}"
+                      alt="Woman Fashion 1"
+                      class="slideshow-character__img animate animate_fade animate_btt animate_delay-9"
+                      style="width: 500px; height: auto; max-width: 100%;">
+                  <div class="character_markup type2">
+                      <p class="text-uppercase font-sofia mark-grey-color animate animate_fade animate_btt animate_delay-10 mb-0">
+                          Computer Engineering
+                      </p>
+                  </div>
+              </div>
+              <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
+                <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
+                  Bestlink Uniforms</h6>
+                <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Computer Engineering <br>Uniform</h2>
+
+                <a href="#"
+                  class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">Shop
+                  Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="overflow-hidden position-relative h-100">
+                <div class="slideshow-character position-absolute bottom-0 pos_right-center">
+                    <img
+                        loading="lazy"
+                        src="{{ asset('images/bg-menu/slide7.png') }}"
+                        alt="Woman Fashion 1"
+                        class="slideshow-character__img animate animate_fade animate_btt animate_delay-9"
+                        style="width: 1200px; height: 700px; max-width: 100%;">
+                    <div class="character_markup type2">
+                        <p class="text-uppercase font-sofia mark-grey-color animate animate_fade animate_btt animate_delay-10 mb-0">
+                            Bachelor of Science in Business Administration
+                        </p>
+                    </div>
+                </div>
+                <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
+                    <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
+                        Bestlink Uniforms
+                    </h6>
+                    <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">
+                        Bachelor of Science in Business <br>Administration
+                    </h2>
+
+                    <a href="#" class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">
+                        Shop Now
+                    </a>
+                </div>
+            </div>
+        </div>
+
+          <div class="swiper-slide">
+            <div class="overflow-hidden position-relative h-100">
+              <div class="slideshow-character position-absolute bottom-0 pos_right-center">
+                  <img loading="lazy" src="{{ asset('images/bg-menu/slide6.png') }}"
+                      alt="Woman Fashion 1"
+                      class="slideshow-character__img animate animate_fade animate_btt animate_delay-9"
+                      style="width: 500px; height: auto; max-width: 100%;">
+                  <div class="character_markup type2">
+                      <p class="text-uppercase font-sofia mark-grey-color animate animate_fade animate_btt animate_delay-10 mb-0">
+                          Accountancy, Business Management
+                      </p>
+                  </div>
+              </div>
+              <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
+                <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
+                  Bestlink Uniforms</h6>
+                <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">ABM Uniform</h2>
+
+                <a href="#"
+                  class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">Shop
+                  Now</a>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="swiper-slide">
-          <div class="overflow-hidden position-relative h-100">
-            <div class="slideshow-character position-absolute bottom-0 pos_right-center">
-              <img loading="lazy" src="{{ asset('assets/images/slideshow-character2.png') }}" width="400" height="690"
-                alt="Woman Fashion 2"
-                class="slideshow-character__img animate animate_fade animate_rtl animate_delay-10 w-auto h-auto" />
-            </div>
-            <div class="slideshow-text container position-absolute start-50 top-50 translate-middle">
-              <h6 class="text_dash text-uppercase fs-base fw-medium animate animate_fade animate_btt animate_delay-3">
-                New Arrivals</h6>
-              <h2 class="h1 fw-normal mb-0 animate animate_fade animate_btt animate_delay-5">Night Spring</h2>
-              <h2 class="h1 fw-bold animate animate_fade animate_btt animate_delay-5">Dresses</h2>
-              <a href="#"
-                class="btn-link btn-link_lg default-underline fw-medium animate animate_fade animate_btt animate_delay-7">Shop
-                Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div class="container">
         <div
           class="slideshow-pagination slideshow-number-pagination d-flex align-items-center position-absolute bottom-0 mb-5">
         </div>
       </div>
     </section>
-    <div class="container mw-1620 bg-white border-radius-10">
-      <div class="mb-3 mb-xl-5 pt-1 pb-4"></div>
-      <section class="category-carousel container">
-        <h2 class="section-title text-center mb-3 pb-xl-2 mb-xl-4">You Might Like</h2>
 
-        <div class="position-relative">
-          <div class="swiper-container js-swiper-slider" data-settings='{
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": 8,
-              "slidesPerGroup": 1,
-              "effect": "none",
-              "loop": true,
-              "navigation": {
-                "nextEl": ".products-carousel__next-1",
-                "prevEl": ".products-carousel__prev-1"
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "slidesPerGroup": 2,
-                  "spaceBetween": 15
-                },
-                "768": {
-                  "slidesPerView": 4,
-                  "slidesPerGroup": 4,
-                  "spaceBetween": 30
-                },
-                "992": {
-                  "slidesPerView": 6,
-                  "slidesPerGroup": 1,
-                  "spaceBetween": 45,
-                  "pagination": false
-                },
-                "1200": {
-                  "slidesPerView": 8,
-                  "slidesPerGroup": 1,
-                  "spaceBetween": 60,
-                  "pagination": false
-                }
-              }
-            }'>
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('assets/images/home/demo3/category_1.png') }}" width="124"
-                  height="124" alt="" />
-                <div class="text-center">
-                  <a href="#" class="menu-link fw-medium">Women<br />Tops</a>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('assets/images/home/demo3/category_2.png') }}" width="124"
-                  height="124" alt="" />
-                <div class="text-center">
-                  <a href="#" class="menu-link fw-medium">Women<br />Pants</a>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('assets/images/home/demo3/category_3.png') }}" width="124"
-                  height="124" alt="" />
-                <div class="text-center">
-                  <a href="#" class="menu-link fw-medium">Women<br />Clothes</a>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('assets/images/home/demo3/category_4.png') }}" width="124"
-                  height="124" alt="" />
-                <div class="text-center">
-                  <a href="#" class="menu-link fw-medium">Men<br />Jeans</a>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('assets/images/home/demo3/category_5.png') }}" width="124"
-                  height="124" alt="" />
-                <div class="text-center">
-                  <a href="#" class="menu-link fw-medium">Men<br />Shirts</a>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('assets/images/home/demo3/category_6.png') }}" width="124"
-                  height="124" alt="" />
-                <div class="text-center">
-                  <a href="#" class="menu-link fw-medium">Men<br />Shoes</a>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('assets/images/home/demo3/category_7.png') }}" width="124"
-                  height="124" alt="" />
-                <div class="text-center">
-                  <a href="#" class="menu-link fw-medium">Women<br />Dresses</a>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <img loading="lazy" class="w-100 h-auto mb-3" src="{{ asset('assets/images/home/demo3/category_8.png') }}" width="124"
-                  height="124" alt="" />
-                <div class="text-center">
-                  <a href="#" class="menu-link fw-medium">Kids<br />Tops</a>
-                </div>
-              </div>
-            </div><!-- /.swiper-wrapper -->
-          </div><!-- /.swiper-container js-swiper-slider -->
 
-          <div
-            class="products-carousel__prev products-carousel__prev-1 position-absolute top-50 d-flex align-items-center justify-content-center">
-            <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
-              <use href="#icon_prev_md" />
-            </svg>
-          </div><!-- /.products-carousel__prev -->
-          <div
-            class="products-carousel__next products-carousel__next-1 position-absolute top-50 d-flex align-items-center justify-content-center">
-            <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
-              <use href="#icon_next_md" />
-            </svg>
-          </div><!-- /.products-carousel__next -->
-        </div><!-- /.position-relative -->
-      </section>
+    <section class="py-20 bg-gradient-to-br from-gray-100 to-gray-200">
+        <div class="max-w-10xl mx-auto px-8">
+          <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Bestlink College of the Philippines</h2>
+            <p class="text-gray-500 max-w-xl mx-auto">Providing quality education and exceptional opportunities for students</p>
+          </div>
 
-      <div class="mb-3 mb-xl-5 pt-1 pb-4"></div>
-
-      <section class="hot-deals container">
-        <h2 class="section-title text-center mb-3 pb-xl-3 mb-xl-4">Hot Deals</h2>
-        <div class="row">
-          <div
-            class="col-md-6 col-lg-4 col-xl-20per d-flex align-items-center flex-column justify-content-center py-4 align-items-md-start">
-            <h2>Summer Sale</h2>
-            <h2 class="fw-bold">Up to 60% Off</h2>
-
-            <div class="position-relative d-flex align-items-center text-center pt-xxl-4 js-countdown mb-3"
-              data-date="18-3-2024" data-time="06:50">
-              <div class="day countdown-unit">
-                <span class="countdown-num d-block"></span>
-                <span class="countdown-word text-uppercase text-secondary">Days</span>
+          <div class="flex flex-wrap justify-center gap-10">
+            <!-- Students Box -->
+            <div class="bg-white rounded-2xl shadow-md p-10 text-center transition-all duration-300 hover:-translate-y-4 hover:shadow-lg max-w-sm w-full relative overflow-hidden group">
+              <div class="absolute inset-x-0 top-0 h-1 bg-blue-500 group-hover:h-full group-hover:opacity-5 transition-all duration-500"></div>
+              <div class="w-20 h-20 bg-blue-500 bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-6 transition-transform duration-300 group-hover:scale-110">
+                <i class='bx bx-user-plus text-4xl text-blue-500'></i>
               </div>
-
-              <div class="hour countdown-unit">
-                <span class="countdown-num d-block"></span>
-                <span class="countdown-word text-uppercase text-secondary">Hours</span>
-              </div>
-
-              <div class="min countdown-unit">
-                <span class="countdown-num d-block"></span>
-                <span class="countdown-word text-uppercase text-secondary">Mins</span>
-              </div>
-
-              <div class="sec countdown-unit">
-                <span class="countdown-num d-block"></span>
-                <span class="countdown-word text-uppercase text-secondary">Sec</span>
-              </div>
+              <h3 class="text-2xl font-semibold text-gray-800 mb-2">30,000+ Students</h3>
+              <p class="text-gray-500 leading-relaxed">Total of students enrolled in Bestlink College of the Philippines, learning and growing together in a vibrant academic community.</p>
             </div>
 
-            <a href="#" class="btn-link default-underline text-uppercase fw-medium mt-3">View All</a>
-          </div>
-          <div class="col-md-6 col-lg-8 col-xl-80per">
-            <div class="position-relative">
-              <div class="swiper-container js-swiper-slider" data-settings='{
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": 4,
-                  "slidesPerGroup": 4,
-                  "effect": "none",
-                  "loop": false,
-                  "breakpoints": {
-                    "320": {
-                      "slidesPerView": 2,
-                      "slidesPerGroup": 2,
-                      "spaceBetween": 14
-                    },
-                    "768": {
-                      "slidesPerView": 2,
-                      "slidesPerGroup": 3,
-                      "spaceBetween": 24
-                    },
-                    "992": {
-                      "slidesPerView": 3,
-                      "slidesPerGroup": 1,
-                      "spaceBetween": 30,
-                      "pagination": false
-                    },
-                    "1200": {
-                      "slidesPerView": 4,
-                      "slidesPerGroup": 1,
-                      "spaceBetween": 30,
-                      "pagination": false
-                    }
-                  }
-                }'>
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide product-card product-card_style3">
-                    <div class="pc__img-wrapper">
-                      <a href="details.html">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-0-1.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-0-2.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
-                      </a>
-                    </div>
-
-                    <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Cropped Faux Leather Jacket</a></h6>
-                      <div class="product-card__price d-flex">
-                        <span class="money price text-secondary">$29</span>
-                      </div>
-
-                      <div
-                        class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                          data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                          data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                          <span class="d-none d-xxl-block">Quick View</span>
-                          <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <use href="#icon_view" />
-                            </svg></span>
-                        </button>
-                        <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                          <svg width="16" height="16" viewBox="0 0 20 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <use href="#icon_heart" />
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide product-card product-card_style3">
-                    <div class="pc__img-wrapper">
-                      <a href="details.html">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-1-1.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-1-2.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
-                      </a>
-                    </div>
-
-                    <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Calvin Shorts</a></h6>
-                      <div class="product-card__price d-flex">
-                        <span class="money price text-secondary">$62</span>
-                      </div>
-
-                      <div
-                        class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                          data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                          data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                          <span class="d-none d-xxl-block">Quick View</span>
-                          <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <use href="#icon_view" />
-                            </svg></span>
-                        </button>
-                        <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                          <svg width="16" height="16" viewBox="0 0 20 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <use href="#icon_heart" />
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide product-card product-card_style3">
-                    <div class="pc__img-wrapper">
-                      <a href="details.html">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-2-1.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-2-2.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
-                      </a>
-                    </div>
-
-                    <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Kirby T-Shirt</a></h6>
-                      <div class="product-card__price d-flex">
-                        <span class="money price text-secondary">$62</span>
-                      </div>
-
-                      <div
-                        class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                          data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                          data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                          <span class="d-none d-xxl-block">Quick View</span>
-                          <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <use href="#icon_view" />
-                            </svg></span>
-                        </button>
-                        <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                          <svg width="16" height="16" viewBox="0 0 20 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <use href="#icon_heart" />
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide product-card product-card_style3">
-                    <div class="pc__img-wrapper">
-                      <a href="details.html">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-3-1.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-3-2.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
-                      </a>
-                    </div>
-
-                    <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Cableknit Shawl</a></h6>
-                      <div class="product-card__price d-flex align-items-center">
-                        <span class="money price-old">$129</span>
-                        <span class="money price text-secondary">$99</span>
-                      </div>
-
-                      <div
-                        class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                          data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                          data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                          <span class="d-none d-xxl-block">Quick View</span>
-                          <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <use href="#icon_view" />
-                            </svg></span>
-                        </button>
-                        <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                          <svg width="16" height="16" viewBox="0 0 20 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <use href="#icon_heart" />
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide product-card product-card_style3">
-                    <div class="pc__img-wrapper">
-                      <a href="details.html">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-0-1.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-0-2.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
-                      </a>
-                    </div>
-
-                    <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Cropped Faux Leather Jacket</a></h6>
-                      <div class="product-card__price d-flex">
-                        <span class="money price text-secondary">$29</span>
-                      </div>
-
-                      <div
-                        class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                          data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                          data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                          <span class="d-none d-xxl-block">Quick View</span>
-                          <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <use href="#icon_view" />
-                            </svg></span>
-                        </button>
-                        <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                          <svg width="16" height="16" viewBox="0 0 20 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <use href="#icon_heart" />
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide product-card product-card_style3">
-                    <div class="pc__img-wrapper">
-                      <a href="details.html">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-1-1.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-1-2.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
-                      </a>
-                    </div>
-
-                    <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Calvin Shorts</a></h6>
-                      <div class="product-card__price d-flex">
-                        <span class="money price text-secondary">$62</span>
-                      </div>
-
-                      <div
-                        class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                          data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                          data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                          <span class="d-none d-xxl-block">Quick View</span>
-                          <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <use href="#icon_view" />
-                            </svg></span>
-                        </button>
-                        <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                          <svg width="16" height="16" viewBox="0 0 20 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <use href="#icon_heart" />
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide product-card product-card_style3">
-                    <div class="pc__img-wrapper">
-                      <a href="details.html">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-2-1.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-2-2.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
-                      </a>
-                    </div>
-
-                    <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Kirby T-Shirt</a></h6>
-                      <div class="product-card__price d-flex">
-                        <span class="money price text-secondary">$62</span>
-                      </div>
-
-                      <div
-                        class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                          data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                          data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                          <span class="d-none d-xxl-block">Quick View</span>
-                          <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <use href="#icon_view" />
-                            </svg></span>
-                        </button>
-                        <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                          <svg width="16" height="16" viewBox="0 0 20 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <use href="#icon_heart" />
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-slide product-card product-card_style3">
-                    <div class="pc__img-wrapper">
-                      <a href="details.html">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-3-1.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img">
-                        <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-3-2.jpg') }}" width="258" height="313"
-                          alt="Cropped Faux leather Jacket" class="pc__img pc__img-second">
-                      </a>
-                    </div>
-
-                    <div class="pc__info position-relative">
-                      <h6 class="pc__title"><a href="details.html">Cableknit Shawl</a></h6>
-                      <div class="product-card__price d-flex align-items-center">
-                        <span class="money price-old">$129</span>
-                        <span class="money price text-secondary">$99</span>
-                      </div>
-
-                      <div
-                        class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                          data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                        <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                          data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                          <span class="d-none d-xxl-block">Quick View</span>
-                          <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <use href="#icon_view" />
-                            </svg></span>
-                        </button>
-                        <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                          <svg width="16" height="16" viewBox="0 0 20 20" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <use href="#icon_heart" />
-                          </svg>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div><!-- /.swiper-wrapper -->
-              </div><!-- /.swiper-container js-swiper-slider -->
-            </div><!-- /.position-relative -->
-          </div>
-        </div>
-      </section>
-
-      <div class="mb-3 mb-xl-5 pt-1 pb-4"></div>
-
-      <section class="category-banner container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="category-banner__item border-radius-10 mb-5">
-              <img loading="lazy" class="h-auto" src="{{ asset('assets/images/home/demo3/category_9.jpg') }}" width="690" height="665"
-                alt="" />
-              <div class="category-banner__item-mark">
-                Starting at $19
+            <!-- Tuition Box -->
+            <div class="bg-white rounded-2xl shadow-md p-10 text-center transition-all duration-300 hover:-translate-y-4 hover:shadow-lg max-w-sm w-full relative overflow-hidden group">
+              <div class="absolute inset-x-0 top-0 h-1 bg-cyan-500 group-hover:h-full group-hover:opacity-5 transition-all duration-500"></div>
+              <div class="w-20 h-20 bg-cyan-500 bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-6 transition-transform duration-300 group-hover:scale-110">
+                <i class='bx bx-no-entry text-4xl text-cyan-500'></i>
               </div>
-              <div class="category-banner__item-content">
-                <h3 class="mb-0">Blazers</h3>
-                <a href="#" class="btn-link default-underline text-uppercase fw-medium">Shop Now</a>
-              </div>
+              <h3 class="text-2xl font-semibold text-gray-800 mb-2">PHP 0.00 Tuition</h3>
+              <p class="text-gray-500 leading-relaxed">NO TUITION at Bestlink College of the Philippines and only pay 4,975 per semester. Making quality education accessible to all.</p>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="category-banner__item border-radius-10 mb-5">
-              <img loading="lazy" class="h-auto" src="{{ asset('assets/images/home/demo3/category_10.jpg') }}" width="690" height="665"
-                alt="" />
-              <div class="category-banner__item-mark">
-                Starting at $19
+
+            <!-- K-12 Box -->
+            <div class="bg-white rounded-2xl shadow-md p-10 text-center transition-all duration-300 hover:-translate-y-4 hover:shadow-lg max-w-sm w-full relative overflow-hidden group">
+              <div class="absolute inset-x-0 top-0 h-1 bg-emerald-500 group-hover:h-full group-hover:opacity-5 transition-all duration-500"></div>
+              <div class="w-20 h-20 bg-emerald-500 bg-opacity-10 rounded-full flex items-center justify-center mx-auto mb-6 transition-transform duration-300 group-hover:scale-110">
+                <i class='bx bx-rocket text-4xl text-emerald-500'></i>
               </div>
-              <div class="category-banner__item-content">
-                <h3 class="mb-0">Sportswear</h3>
-                <a href="#" class="btn-link default-underline text-uppercase fw-medium">Shop Now</a>
-              </div>
+              <h3 class="text-2xl font-semibold text-gray-800 mb-2">K to 12 Program Ready</h3>
+              <p class="text-gray-500 leading-relaxed">Bestlink College of the Philippines offers K to 12 Program, preparing students for success in a competitive global environment.</p>
             </div>
           </div>
         </div>
       </section>
+      <div class="flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-8 py-12 px-4 md:px-8 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
 
-      <div class="mb-3 mb-xl-5 pt-1 pb-4"></div>
-
-      <section class="products-grid container">
-        <h2 class="section-title text-center mb-3 pb-xl-3 mb-xl-4">Featured Products</h2>
-
-        <div class="row">
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
-              <div class="pc__img-wrapper">
-                <a href="details.html">
-                  <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-4.jpg') }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
-                </a>
-              </div>
-
-              <div class="pc__info position-relative">
-                <h6 class="pc__title"><a href="details.html">Cropped Faux Leather Jacket</a></h6>
-                <div class="product-card__price d-flex align-items-center">
-                  <span class="money price text-secondary">$29</span>
-                </div>
-
-                <div
-                  class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                    data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                    data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                    <span class="d-none d-xxl-block">Quick View</span>
-                    <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <use href="#icon_view" />
-                      </svg></span>
-                  </button>
-                  <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <use href="#icon_heart" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
+        <!-- Image Column (Centered) -->
+        <div class="md:w-5/12 order-1 md:order-2 flex items-center justify-center">
+            <div class="overflow-hidden rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
+                <img
+                    src="{{ asset('images/bg-menu/enroll.jpg') }}"
+                    class="w-4/5 md:w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500"
+                    style="max-width: 700px; max-height: 500px;"
+                    alt="Bestlink College campus">
             </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
-              <div class="pc__img-wrapper">
-                <a href="details.html">
-                  <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-5.jpg') }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
-                </a>
-              </div>
-
-              <div class="pc__info position-relative">
-                <h6 class="pc__title"><a href="details.html">Calvin Shorts</a></h6>
-                <div class="product-card__price d-flex align-items-center">
-                  <span class="money price text-secondary">$62</span>
-                </div>
-
-                <div
-                  class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                    data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                    data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                    <span class="d-none d-xxl-block">Quick View</span>
-                    <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <use href="#icon_view" />
-                      </svg></span>
-                  </button>
-                  <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <use href="#icon_heart" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
-              <div class="pc__img-wrapper">
-                <a href="details.html">
-                  <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-6.jpg') }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
-                </a>
-                <div class="product-label text-uppercase bg-white top-0 left-0 mt-2 mx-2">New</div>
-              </div>
-
-              <div class="pc__info position-relative">
-                <h6 class="pc__title"><a href="details.html">Kirby T-Shirt</a></h6>
-                <div class="product-card__price d-flex align-items-center">
-                  <span class="money price text-secondary">$17</span>
-                </div>
-
-                <div
-                  class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                    data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                    data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                    <span class="d-none d-xxl-block">Quick View</span>
-                    <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <use href="#icon_view" />
-                      </svg></span>
-                  </button>
-                  <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <use href="#icon_heart" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
-              <div class="pc__img-wrapper">
-                <a href="details.html">
-                  <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-7.jpg') }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
-                </a>
-                <div class="product-label bg-red text-white right-0 top-0 left-auto mt-2 mx-2">-67%</div>
-              </div>
-
-              <div class="pc__info position-relative">
-                <h6 class="pc__title">Cableknit Shawl</h6>
-                <div class="product-card__price d-flex align-items-center">
-                  <span class="money price-old">$129</span>
-                  <span class="money price text-secondary">$99</span>
-                </div>
-
-                <div
-                  class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                    data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                    data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                    <span class="d-none d-xxl-block">Quick View</span>
-                    <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <use href="#icon_view" />
-                      </svg></span>
-                  </button>
-                  <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <use href="#icon_heart" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
-              <div class="pc__img-wrapper">
-                <a href="details.html">
-                  <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-8.jpg') }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
-                </a>
-              </div>
-
-              <div class="pc__info position-relative">
-                <h6 class="pc__title"><a href="details.html">Cropped Faux Leather Jacket</a></h6>
-                <div class="product-card__price d-flex align-items-center">
-                  <span class="money price text-secondary">$29</span>
-                </div>
-
-                <div
-                  class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                    data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                    data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                    <span class="d-none d-xxl-block">Quick View</span>
-                    <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <use href="#icon_view" />
-                      </svg></span>
-                  </button>
-                  <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <use href="#icon_heart" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
-              <div class="pc__img-wrapper">
-                <a href="details.html">
-                  <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-9.jpg') }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
-                </a>
-              </div>
-
-              <div class="pc__info position-relative">
-                <h6 class="pc__title"><a href="details.html">Calvin Shorts</a></h6>
-                <div class="product-card__price d-flex align-items-center">
-                  <span class="money price text-secondary">$62</span>
-                </div>
-
-                <div
-                  class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                    data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                    data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                    <span class="d-none d-xxl-block">Quick View</span>
-                    <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <use href="#icon_view" />
-                      </svg></span>
-                  </button>
-                  <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <use href="#icon_heart" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
-              <div class="pc__img-wrapper">
-                <a href="details.html">
-                  <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-10.jpg') }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
-                </a>
-              </div>
-
-              <div class="pc__info position-relative">
-                <h6 class="pc__title"><a href="details.html">Kirby T-Shirt</a></h6>
-                <div class="product-card__price d-flex align-items-center">
-                  <span class="money price text-secondary">$17</span>
-                </div>
-
-                <div
-                  class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                    data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                    data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                    <span class="d-none d-xxl-block">Quick View</span>
-                    <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <use href="#icon_view" />
-                      </svg></span>
-                  </button>
-                  <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <use href="#icon_heart" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-6 col-md-4 col-lg-3">
-            <div class="product-card product-card_style3 mb-3 mb-md-4 mb-xxl-5">
-              <div class="pc__img-wrapper">
-                <a href="details.html">
-                  <img loading="lazy" src="{{ asset('assets/images/home/demo3/product-11.jpg') }}" width="330" height="400"
-                    alt="Cropped Faux leather Jacket" class="pc__img">
-                </a>
-              </div>
-
-              <div class="pc__info position-relative">
-                <h6 class="pc__title">Cableknit Shawl</h6>
-                <div class="product-card__price d-flex align-items-center">
-                  <span class="money price-old">$129</span>
-                  <span class="money price text-secondary">$99</span>
-                </div>
-
-                <div
-                  class="anim_appear-bottom position-absolute bottom-0 start-0 d-none d-sm-flex align-items-center bg-body">
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-add-cart js-open-aside"
-                    data-aside="cartDrawer" title="Add To Cart">Add To Cart</button>
-                  <button class="btn-link btn-link_lg me-4 text-uppercase fw-medium js-quick-view"
-                    data-bs-toggle="modal" data-bs-target="#quickView" title="Quick view">
-                    <span class="d-none d-xxl-block">Quick View</span>
-                    <span class="d-block d-xxl-none"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <use href="#icon_view" />
-                      </svg></span>
-                  </button>
-                  <button class="pc__btn-wl bg-transparent border-0 js-add-wishlist" title="Add To Wishlist">
-                    <svg width="16" height="16" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <use href="#icon_heart" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div><!-- /.row -->
-
-        <div class="text-center mt-2">
-          <a class="btn-link btn-link_lg default-underline text-uppercase fw-medium" href="#">Load More</a>
         </div>
-      </section>
+
+        <!-- Content Column (Centered) -->
+        <div class="md:w-7/12 order-2 md:order-1 flex flex-col items-center md:items-start text-center md:text-left space-y-4">
+            <a href="" class="group">
+                <h3 class="text-2xl md:text-3xl font-bold text-gray-800 group-hover:text-blue-600 transition-colors duration-300">
+                    Enroll now at Bestlink College of the Philippines
+                </h3>
+            </a>
+
+            <div class="space-y-3">
+                <p class="text-lg font-medium italic text-blue-600">
+                    "Be trained to be the best. Be linked to success."
+                </p>
+
+                <div class="space-y-2 text-gray-700">
+                    <p class="font-medium">Enrollment is ongoing for First Semester Academic Year 2024-2025</p>
+                    <p>COLLEGE Freshmen / Transferees / Returnees</p>
+                    <p class="flex justify-center md:justify-start items-center">
+                        <span class="font-medium">ADMISSION LINK:</span>
+                        <a href="https://admission.bcp.edu.ph/" target="_blank"
+                            class="ml-2 text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-300">
+                            https://admission.bcp.edu.ph/
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.facebook.com/hashtag/bcpupdate"
+                            class="text-blue-500 hover:text-blue-700 transition-colors duration-300">
+                            #bcpupdate
+                        </a>
+                    </p>
+                </div>
+
+                <div class="flex flex-col md:flex-row items-center md:items-start space-x-0 md:space-x-4 pt-2">
+                    <a href="/news/enroll-now-at-bestlink-college-of-the-philippines"
+                        class="inline-block px-6 py-2 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors duration-300 shadow-md hover:shadow-lg">
+                        Read More
+                    </a>
+
+                    <p class="text-sm text-gray-500 italic mt-3 md:mt-0">
+                        Posted by MIS Developer on January 21, 2025
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="mb-3 mb-xl-5 pt-1 pb-4"></div>
+      <div class="mb-3 mb-xl-5 pt-1 pb-4"></div>
+
+      <section class="bg-gradient-to-r from-blue-500 to-indigo-600 py-16 text-white">
+        <div class="container mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold uppercase text-white">BCP News Update</h2>
+            <p class="mt-4 max-w-2xl mx-auto text-lg">
+              BCP News Update keeps our school community informed about our Business Continuity Plan (BCP), safety measures, emergency protocols, and strategies for uninterrupted learning.
+            </p>
+          </div>
+
+          <!-- News Items -->
+          <div class="grid md:grid-cols-2 gap-12">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden text-gray-800">
+              <img src="{{ asset('images/bg-menu/campusministry.png')}}" class="w-full h-64 object-cover" alt="Campus Ministry">
+              <div class="p-6">
+                <h3 class="text-2xl font-semibold">Bestlink College of the Philippines - Campus Ministry</h3>
+                <p class="mt-4 text-gray-600">BCP trains students to be self-motivated and self-directed individuals, guiding them towards success and active participation in society.</p>
+                <ul class="mt-4 space-y-2">
+                  <li class="flex items-center"><i class="bi bi-check text-blue-500 mr-2"></i> Be trained to be the  <strong>best</strong>.</li>
+                  <li class="flex items-center"><i class="bi bi-check text-blue-500 mr-2"></i> Be  <strong>linked</strong> to success.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden text-gray-800">
+              <img src="{{ asset('images/bg-menu/advisory.jpg')}}" class="w-full h-64 object-cover" alt="Advisory">
+              <div class="p-6">
+                <a href="/news/advisory-no-001-0129-s2025" class="text-xl font-semibold hover:text-blue-500">Advisory No. 001-0129, s2025</a>
+                <p class="mt-4 text-gray-600">All students and faculty are informed that classes will be ONLINE from January 30 to February 1 due to ongoing construction.</p>
+                <a href="/news/advisory-no-001-0129-s2025" class="mt-4 inline-block text-blue-500 font-medium">Read More →</a>
+                <p class="mt-2 text-sm text-gray-500">Posted by Social Media on January 29, 2025</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+
 
   </main>
 @endsection

@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('utype')->default('USER')->comment('ADM For Admin and USR for User or Customer');
             $table->rememberToken();
             $table->timestamps();
+            $table->integer('two_factor_code')->nullable();
         });
 
         Schema::create('password_reset_tokens', function (Blueprint $table) {
